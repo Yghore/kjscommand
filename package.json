@@ -1,0 +1,24 @@
+{
+  "name": "kjscommand",
+  "version": "0.0.1",
+  "description": "CLI Creator",
+  "main": "./build/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "watch": "npx tsc -w"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "Yghore",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/yghore/kjscommand.git"
+  }
+}
